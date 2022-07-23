@@ -1,0 +1,35 @@
+<html>
+  {% load static %}
+    {% comment %} Head {% endcomment %}
+   {% include 'head.html' %}
+   
+    <body class="d-flex h-100 text-center text-white bg-dark">
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+       {% comment %} Header {% endcomment %}
+       {% include 'header.html' %}
+      
+        <main class="px-3">          
+          <img class="rounded-circle img-fluid index" src="{% static 'images/rag.jpg' %}"
+          data-holder-rendered="true">
+          <h1>My Name Is ABRAHAM LAKEW</h1>
+          <p class="lead">I AM SOFTWARE DEVELOPER</p>
+          
+          <p class="lead">
+            <a href="skill.html" class="btn btn-lg btn-secondary fw-bold border-white ">Learn more</a>
+          </p>
+        </main>
+      
+        <footer class="mt-auto text-white-50">
+          <p>Developed By ABRAHAM</p>
+        </footer>
+      </div>
+ 
+      </body>
+</html>
+
+
+
+
